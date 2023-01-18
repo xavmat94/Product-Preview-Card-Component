@@ -12,7 +12,6 @@
 
 *, a{
   color:var(--black);
- cursor: pointer;
  font-family: 'Montserrat', sans-serif;
  font-size: 12px;
  font-weight: 500;
@@ -78,7 +77,7 @@ body {
   margin-right: 30px;
 }
 
-.amount {
+.montant {
   align-items: center;
   display: grid;
   grid-template-columns: repeat(2, 150px);
@@ -86,13 +85,13 @@ body {
   margin-top: 20px;
   margin-bottom: 8px
 }
-.amount .correct-val p{
+.montant .prix p{
   color: var(--darkgreen);
   font-size: 2.5em;
   font-weight: 800;
   font-family: 'Fraunces', serif;
 }
-.amount .strikethrough-val p {
+.montant .prixdebase p {
   color: var(--mediumlightgrey);
   text-decoration: line-through;
 }
@@ -121,6 +120,10 @@ body {
   font-size: 1.2em;
   color: var(--white);
   font-weight: 500;
+}
+
+.button :hover {
+  background-color: #0e3823;
 }
 
 @media screen and (min-width: 768px){
